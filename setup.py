@@ -25,7 +25,7 @@ classifiers = [
 
 extras_require = {
     "format" : ["rfc3987", "strict-rfc3339", "webcolors"],
-    ":python_version=='2.7'": ["functools32"],
+    ":python_version=='2.7'": ["backports.functools_lru_cache"],
 }
 
 setup(
